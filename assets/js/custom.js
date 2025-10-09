@@ -113,6 +113,56 @@ $(document).ready(function(){
 
     // 5. welcome animation support
 
+	document.getElementById('redirectButton').addEventListener('click', function() {
+		var carta = Math.floor(Math.random() * 1);
+			if(carta == 0){
+				window.location.href = './01 El loco';
+			}else if (carta == 1){
+			
+			}else if (carta == 2){
+			
+			}else if (carta == 3){
+			
+			}else if (carta == 4){
+			
+			}else if (carta == 5){
+			
+			}else if (carta == 6){
+			
+			}else if (carta == 7){
+			
+			}else if (carta == 8){
+			
+			}else if (carta == 9){
+			
+			}else if (carta == 10){
+			
+			}else if (carta == 11){
+			
+			}else if (carta == 12){
+			
+			}else if (carta == 13){
+			
+			}else if (carta == 14){
+			
+			}else if (carta == 15){
+			
+			}else if (carta == 16){
+			
+			}else if (carta == 17){
+			
+			}else if (carta == 18){
+			
+			}else if (carta == 19){
+			
+			}else if (carta == 20){
+			
+			}else if (carta == 21){
+			
+			}
+		};
+
+
         $(window).load(function(){
         	$(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity':'0'});
             $(".header-text a").removeClass("animated fadeInDown").css({'opacity':'0'});

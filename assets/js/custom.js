@@ -115,7 +115,7 @@ $(document).ready(function(){
 
 	document.getElementById('redirectButton').addEventListener('click', function() {
 		var carta = Math.floor(Math.random() * 1);
-			if(carta == 0){
+			if(carta === 0){
 				window.location.href = './01 El loco.html';
 			}else if (carta == 1){
 			

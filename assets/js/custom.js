@@ -117,7 +117,7 @@ $(document).ready(function(){
 	function CartaAleatoria(){
 		var carta = Math.floor(Math.random() * 1);
 		console.log("Loquitomio 2");
-			if(carta === 0){
+			if(carta == 0){
 				window.location.href = './00 El loco.html';
 			}else if (carta == 1){
 			

@@ -111,9 +111,10 @@ $(document).ready(function(){
 				})
 
 
+
     // 5. welcome animation support
 
-	document.getElementById('redirectButton').addEventListener('click', function() {
+	function CartaAleatoria(){
 		var carta = Math.floor(Math.random() * 1);
 		console.log("Loquitomio 2");
 			if(carta === 0){
